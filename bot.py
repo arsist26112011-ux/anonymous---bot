@@ -22,7 +22,7 @@ async def start(message: types.Message):
 @dp.message()
 async def anonymous_message(message: types.Message):
     # Пока отправляем владельцу бота
-    owner_id = 123456789  # заменить на свой Telegram ID
+    owner_id = 1272771412
 
     try:
         await bot.copy_message(
